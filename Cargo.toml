@@ -1,0 +1,15 @@
+[package]
+name = "astromind-final"
+version = "0.1.0"
+edition = "2021"
+description = "Developmental growth language for the Astromind spatial neuronal system"
+license = "Proprietary"
+
+[dependencies]
+ternary-signal = { path = "../ternary-signal" }
+neuropool = { path = "../neuropool-rs" }
+thiserror = "2.0"
+log = "0.4"
+
+[dev-dependencies]
+env_logger = "0.11"

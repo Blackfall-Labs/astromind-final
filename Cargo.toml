@@ -3,7 +3,7 @@ name = "astromind-final"
 version = "0.1.0"
 edition = "2021"
 description = "Developmental growth language for the Astromind spatial neuronal system"
-license = "Proprietary"
+license = "MIT"
 
 [dependencies]
 ternary-signal = { path = "../ternary-signal" }
